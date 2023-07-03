@@ -6,10 +6,12 @@ import {ToastContainer,toast} from 'react-toastify'
 
 
 function App() {
-  const btnHandle=()=>{
+  const btnHandle1=()=>{
     toast("This is my first message")
   }
-
+  const btnHandle=()=>{
+    toast.success("Done",{position:'bottom-center'});
+  }
   return (
     <div className="App">
       {/* <Header name="Sindhu" title="first_card"/>
